@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Desk - 로그인 없이 바로 쓰는 공부 타이머 · 공부 기록 대시보드</title>
+<meta name="description" content="Study Desk는 뽀모도로 집중 타이머, 백색소음 사운드 믹서, 공부량 기록, 달력, 라이브 스터디룸을 한 화면에 모은 무료 공부 대시보드입니다. 회원가입 없이 바로 시작하세요.">
+<meta name="keywords" content="공부 타이머, 뽀모도로 타이머, 스터디윗미, 백색소음, 공부 기록, 집중 타이머, 온라인 스터디룸, 수험생, 공시생">
+<link rel="canonical" href="https://ohjutaek.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Study Desk">
+<meta property="og:title" content="Study Desk - 로그인 없이 바로 쓰는 공부 대시보드">
+<meta property="og:description" content="집중 타이머, 배경음, 공부량 기록, 라이브 스터디룸을 한 화면에서.">
+<meta property="og:url" content="https://ohjutaek.github.io/">
+<meta property="og:image" content="https://ohjutaek.github.io/my-study-dashboard/og-image.png?v=2">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://ohjutaek.github.io/my-study-dashboard/og-image.png?v=2">
+<meta name="theme-color" content="#14182b">
+<style>
+  :root{--bg:#14182b;--ink:#fff;--soft:#c9d1ff;--accent:#7c8cff;--glass:rgba(255,255,255,.07);--edge:rgba(255,255,255,.16)}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;color:var(--ink);
+       background:radial-gradient(600px 400px at 85% 0%,rgba(124,140,255,.35),transparent 70%),
+                  radial-gradient(500px 400px at 0% 100%,rgba(180,110,255,.25),transparent 70%),var(--bg);
+       min-height:100vh;line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:72px 24px 48px}
+  h1{font-size:clamp(44px,8vw,80px);line-height:1.05;letter-spacing:-.02em;
+     background:linear-gradient(#fff,#e7dcff);-webkit-background-clip:text;background-clip:text;color:transparent;
+     text-shadow:0 10px 40px rgba(124,140,255,.35)}
+  .lead{margin-top:16px;font-size:clamp(18px,2.6vw,24px);color:var(--soft)}
+  .cta{display:inline-block;margin-top:32px;padding:16px 32px;border-radius:999px;background:var(--accent);color:#14182b;
+       font-weight:700;font-size:18px;text-decoration:none;box-shadow:0 10px 30px rgba(124,140,255,.45),inset 0 2px 0 rgba(255,255,255,.35);
+       transition:transform .15s}
+  .cta:hover{transform:translateY(-2px)}
+  .note{margin-top:12px;font-size:14px;color:var(--soft);opacity:.8}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:56px}
+  .card{background:var(--glass);border:1px solid var(--edge);border-radius:20px;padding:22px;
+        box-shadow:0 16px 40px rgba(0,0,0,.35);backdrop-filter:blur(8px)}
+  .card h2{font-size:18px;margin-bottom:6px}
+  .card p{font-size:15px;color:var(--soft)}
+  .shot{margin-top:56px;width:100%;border-radius:20px;border:1px solid var(--edge);box-shadow:0 24px 60px rgba(0,0,0,.45)}
+  h3{margin-top:56px;font-size:22px}
+  ol{margin:12px 0 0 20px;color:var(--soft)}
+  footer{margin-top:64px;font-size:13px;color:var(--soft);opacity:.7}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1>Study Desk</h1>
+  <p class="lead">집중 타이머 · 배경음 · 공부 기록을 한 화면에.<br>회원가입 없이, 열자마자 바로 공부를 시작하세요.</p>
+  <a class="cta" href="/my-study-dashboard/">Study Desk 시작하기 →</a>
+  <p class="note">무료 · 로그인 필요 없음 · PC와 모바일 모두 사용 가능</p>
+
+  <section class="grid" aria-label="주요 기능">
+    <div class="card"><h2>⏱ 집중 타이머</h2><p>집중·휴식 시간을 정하면 자동으로 전환되는 뽀모도로 타이머. 아날로그 모드와 완료 알람도 있어요.</p></div>
+    <div class="card"><h2>🎧 사운드 믹서</h2><p>빗소리, 카페 소음 같은 배경음을 섞어서 나만의 집중 사운드를 만들어요.</p></div>
+    <div class="card"><h2>📊 공부량 기록</h2><p>완료한 세션과 집중 시간이 자동으로 쌓이고, 최근 7일 기록을 한눈에 봐요.</p></div>
+    <div class="card"><h2>👥 라이브 스터디룸</h2><p>지금 함께 공부 중인 사람들을 보면서 혼자가 아닌 느낌으로 집중해요.</p></div>
+    <div class="card"><h2>📅 일정 · 달력</h2><p>오늘 할 일을 적고, 날짜별로 완료·진행·미완료를 표시해요.</p></div>
+    <div class="card"><h2>📝 메모</h2><p>공부하다 떠오른 생각을 바로 적어두세요.</p></div>
+  </section>
+
+  <img class="shot" src="/my-study-dashboard/og-image.png?v=2" alt="Study Desk 화면 미리보기 - 집중 타이머 25:00과 공부량 그래프" width="1200" height="630" loading="lazy">
+
+  <h3>이렇게 사용하세요</h3>
+  <ol>
+    <li>Study Desk를 열고 오늘 할 일을 적어요.</li>
+    <li>집중 시간을 정하고 타이머를 시작해요. 배경음도 골라보세요.</li>
+    <li>세션이 끝나면 기록이 자동으로 쌓여요. 달력에서 하루를 정리해요.</li>
+  </ol>
+
+  <a class="cta" href="/my-study-dashboard/">지금 바로 공부 시작 →</a>
+
+  <footer>© Study Desk · made by ohjutaek</footer>
+</main>
+</body>
+</html>
